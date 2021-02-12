@@ -1,6 +1,7 @@
 package main
 
 import (
+	"basic-api/config"
 	"basic-api/controllers"
 	"log"
 	"net/http"
@@ -10,6 +11,11 @@ import (
 
 func main() {
 	r := mux.NewRouter()
+
+	_, err := config.InitDB()
+	if err != nil {
+		panic(err)
+	}
 
 	r.HandleFunc("/article", controllers.PostArticles).Methods("POST")
 	r.HandleFunc("/article/{id}", controllers.GetArticle).Methods("GET")
