@@ -3,7 +3,6 @@
 
 ## Routes
 
-*** 
 <br/>
 
 ### Fetch all articles
@@ -83,7 +82,6 @@ Authentication needed: `true`
 
 ## Models
 
-*** 
 <br/>
 
 ### Article
