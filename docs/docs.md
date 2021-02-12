@@ -1,6 +1,6 @@
 # Documentation
 
-Here you will find all the API routes, methods and data structure.
+Here is all the API's routes, methods and data structure. Happy coding !
 
 <br/>
 
