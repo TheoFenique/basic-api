@@ -31,7 +31,7 @@ func main() {
 	r.HandleFunc("/login", controllers.HandleLogin).Methods("POST")
 	r.HandleFunc("/register", controllers.HandleRegister).Methods("POST")
 	r.HandleFunc("/profile", controllers.GetProfile).Methods("GET")
-	r.HandleFunc("/profile", controllers.EditProfile).Methods("PUT")
+	r.HandleFunc("/users/{id}", controllers.EditProfile).Methods("PUT")
 
 	log.Fatal(http.ListenAndServe(":8080", r))
 }

@@ -3,7 +3,7 @@ CREATE TABLE `articles`  (
   `username` varchar(255) NULL,
   `title` varchar(255) NULL,
   `content` text NULL,
-  `creation_date` datetime(0) NULL,
+  `created_at` datetime(0) NULL,
   PRIMARY KEY (`id`)
 );
 
@@ -11,7 +11,7 @@ CREATE TABLE `comments`  (
   `id` int NOT NULL,
   `username` varchar(255) NULL,
   `content` text NULL,
-  `creation_date` datetime(0) NULL,
+  `created_at` datetime(0) NULL,
   `article_id` int NULL,
   PRIMARY KEY (`id`)
 );
