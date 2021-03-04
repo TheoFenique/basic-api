@@ -30,10 +30,10 @@ func PostArticles(w http.ResponseWriter, r *http.Request) {
 
 // LikeArticle takes the LikeArticleForm
 func LikeArticle(w http.ResponseWriter, r *http.Request) {
-	// file database
+	// fill database
 }
 
 // DislikeArticle takes the LikeArticleForm
 func DislikeArticle(w http.ResponseWriter, r *http.Request) {
-	// file database
+	// fill database
 }

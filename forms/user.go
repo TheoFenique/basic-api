@@ -1,4 +1,4 @@
-package models
+package forms
 
 // UserForm is used to edit or create an user
 type UserForm struct {

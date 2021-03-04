@@ -1,4 +1,4 @@
-package models
+package forms
 
 // ArticleForm is the form for the request CreateArticle
 type ArticleForm struct {

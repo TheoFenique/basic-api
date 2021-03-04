@@ -1,4 +1,4 @@
-package models
+package forms
 
 // CommentForm is the form for the request CreateArticle
 type CommentForm struct {
